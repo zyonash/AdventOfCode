@@ -1,6 +1,6 @@
 def solve():
     counter = 0
-    f = open('AOC1_input.txt', 'r')
+    f = open('input/AOC1_input.txt', 'r')
     while True:
         direction = f.read(1)
         if direction == '(':

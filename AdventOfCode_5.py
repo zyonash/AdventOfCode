@@ -3,7 +3,7 @@ def solve():
     y_coordinate = 0
     houses_seen = 0
     house_map = {}
-    f = open('AOC5_input.txt', 'r')
+    f = open('input/AOC5_input.txt', 'r')
     while True:
         char = f.read(1)
         if char == '<':

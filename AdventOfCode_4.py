@@ -2,7 +2,7 @@ import string
 
 def solve():
     total_ribbon_feet = 0
-    f = open('AOC3_input.txt', 'r')
+    f = open('input/AOC3_input.txt', 'r')
     while True:
         line = f.readline()
         box_dims = string.split(line,"x",2)

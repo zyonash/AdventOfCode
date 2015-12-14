@@ -2,7 +2,7 @@ import string
 
 def solve():
     total_square_feet = 0
-    f = open('AOC3_input.txt', 'r')
+    f = open('input/AOC3_input.txt', 'r')
     while True:
         line = f.readline()
         box_dims = string.split(line,"x",2)
@@ -16,7 +16,6 @@ def calculate(box_dims):
     width = 0
     height = 0
     counter = 0 # Counter 0 means length (l), counter 1 means width (w), counter 2 means height (h)
-    started = 0 # Started to know which dim is the smallest side
     smallest_dim = 0
     for dim in box_dims:
         if not dim:
