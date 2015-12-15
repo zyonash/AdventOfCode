@@ -18,7 +18,6 @@ def solve():
             break
         temp_key = str(x_coordinate)+ " and " + str(y_coordinate)
         if not temp_key in house_map:
-            print "Haven't seen it"
             house_map[temp_key] = "Seen"
             houses_seen += 1
 
